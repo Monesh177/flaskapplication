@@ -1,0 +1,7 @@
+<h1>Dashboard</h1>
+<ul>
+    {% for url in course_urls %}
+    <li><a href="{{ url }}" target="_blank">{{ url }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/logout">Logout</a>
